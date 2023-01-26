@@ -1,4 +1,4 @@
-/*font-family: 'Space Mono', monospace;*/
+
 *{
     margin: 0;
 }
@@ -15,11 +15,11 @@
   margin: auto;
 }
 
-/* Hide the images by default*/
+/* Hide the images by default
 .mySlides {
   display: none;
 }
-
+*/
 /* Fading animation */
 .fade {
   animation-name: fade;
@@ -75,4 +75,42 @@
   }
 #header{
     background-color: #5b3e87;
+}
+
+    .välkommen{
+        font-size: 180%;
+        font-family: 'Lobster', cursive;
+        font-weight: 500;
+        color: black;
+        backdrop-filter: blur(10px) saturate(70%);
+    
+        display: flex;
+        justify-content: center;
+      }
+      #välkommen{
+        border-style: solid;
+        border-color: black;
+        border-bottom: 0;
+        border-width: 7px;
+      }
+      #välkommen1{
+        border-left-style: solid;
+        border-right-style: solid;
+        border-width: 7px;
+      }
+.välkommen2{
+    font-size: 120%;
+    font-family: 'Alegreya', serif;
+        font-weight: 500;
+        color: black;
+        backdrop-filter: blur(10px) saturate(70%);
+        border-style: solid;
+        border-color: black;
+        border-top: 0;
+        border-width: 7px;
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
 }
