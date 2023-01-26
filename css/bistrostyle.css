@@ -1,0 +1,78 @@
+/*font-family: 'Space Mono', monospace;*/
+*{
+    margin: 0;
+}
+
+.mySlides{
+    filter: blur(3px);
+}
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default*/
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+} 
+
+/*Dropdownmeny*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a:hover {background-color: #cccccc;}
+  
+  .dropdown:hover .dropdown-content {display: block;
+  border-radius: 5px;
+  }
+  
+  .dropdown:hover .dropbtn {background-color: #724dab;}
+  
+  .dropdown-content a {
+    color: black;
+    padding: 22px 26px;
+    text-decoration: none;
+    display: block;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    border-radius: 5px;
+  }
+  .dropdown-content a:active{
+    color: white;
+  }
+
+  .dropbtn{
+    background-color: #5b3e87;
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 13px;
+    font-size: 80px;
+    font-family: 'Rajdhani', sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+#header{
+    background-color: #5b3e87;
+}
