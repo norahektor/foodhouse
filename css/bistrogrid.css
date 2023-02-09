@@ -53,4 +53,25 @@ footer{
     grid-row: 12/13;
 }
 
-/*Härifrån är det för meny-sidan*/
+@media screen and (max-width: 740px) {
+    .omoss{
+        grid-column: 1/4;
+        grid-row: 7/8;
+    }
+    #omoss{
+        grid-column: 1/4;
+    }
+    #burgerwcola{
+        grid-column: 1/4;
+    }
+    #ommaten{
+        grid-row: 10/11;
+    }
+    #omaten{
+        grid-column: 1/4;
+        grid-row: 9/10;
+    }
+    #singleburg{
+        grid-row: 8/9;
+    }
+}

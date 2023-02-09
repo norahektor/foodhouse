@@ -114,6 +114,7 @@ body{
 .omoss{
   display: flex;
   justify-content: center;
+  padding: 20px;
   background-color: rgba(161, 24, 138);
   font-size: 30px;
 }
@@ -156,6 +157,9 @@ footer{
   background-color: rgba(87, 10, 63);
   padding: 20px;
 }
+
+
+
 /*Meny-sidan härifrån*/
 
 #meny{
