@@ -65,18 +65,17 @@ body{
   
 }
     .välkommen{
-        font-size: 180%;
+        font-size: 60px;
         font-family: 'Lobster', cursive;
         font-weight: 500;
-        color: black;
+        color: white;
         backdrop-filter: blur(10px) saturate(70%);
-    
         display: flex;
         justify-content: center;
       }
       #välkommen{
         border-style: solid;
-        border-color: black;
+        border-color: white;
         border-bottom: 0;
         border-width: 7px;
       }
@@ -84,16 +83,16 @@ body{
         border-left-style: solid;
         border-right-style: solid;
         border-width: 7px;
-        font-size: 30px;
+        font-size: 70px;
       }
 .välkommen2{
     font-size: 30px;
     font-family: 'Alegreya', serif;
         font-weight: 500;
-        color: black;
+        color: white;
         backdrop-filter: blur(10px) saturate(70%);
         border-style: solid;
-        border-color: black;
+        border-color: white;
         border-top: 0;
         border-width: 7px;
         display: flex;
