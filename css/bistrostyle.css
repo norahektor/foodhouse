@@ -114,7 +114,6 @@ body{
 .omoss{
   display: flex;
   justify-content: center;
-  padding: 40px;
   background-color: rgba(161, 24, 138);
   font-size: 30px;
 }
