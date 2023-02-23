@@ -105,7 +105,7 @@ body{
 #omoss{
   display: flex;
   justify-content: center;
-  background-color: rgba(105, 31, 92);
+  background-color: rgb(164, 32, 140);
   padding: 30px;
   font-family: 'Lobster', cursive;
   font-weight: 500;
