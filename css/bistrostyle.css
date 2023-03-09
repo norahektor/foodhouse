@@ -120,7 +120,6 @@ body{
 }
 #burgerwcola{
   width: 100%;
-  padding: 10px;
   background-color: rgba(138, 66, 115);
 }
 #milkshake{
@@ -130,7 +129,6 @@ body{
 }
 #singleburg{
   width: 100%;
-  padding: 10px;
 }
 #omaten{
   display: flex;
